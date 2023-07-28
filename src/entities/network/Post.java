@@ -60,6 +60,7 @@ public class Post {
     }
 
     public void addComment(Comment comment){
+
         comments.add(comment);
     }
     public void removeComment(Comment comment){
