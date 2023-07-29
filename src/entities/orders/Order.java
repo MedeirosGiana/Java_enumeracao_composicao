@@ -49,4 +49,11 @@ public class Order {
        }
        return sum;
    }
+
+    @Override
+    public String toString() {
+        return "Order moment: " + moment + "\n"
+                + "Order status: " + status + "\n"
+                + "Order items: " + items;
+    }
 }

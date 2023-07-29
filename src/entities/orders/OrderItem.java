@@ -40,4 +40,12 @@ public class OrderItem {
     public  double subTotal(){
         return quantity * price;
     }
+
+    @Override
+    public String toString() {
+        return "Order ItemS: "
+                +product
+                +price
+                + "Quantity: " + quantity;
+    }
 }
